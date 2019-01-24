@@ -24,4 +24,4 @@ app.put(`/api/products/:id`, pro_ctrl.update)
 app.delete(`/api/products/:id`, pro_ctrl.delete)
 
 port = process.env.PORT || 3000
-app.listen(port, ()=>{console.log(`listening on port ${port}`)}) 
+app.listen(port, ()=>{console.log(`listening on port ${port}`)})
